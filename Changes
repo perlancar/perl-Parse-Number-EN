@@ -1,0 +1,12 @@
+Revision history for Parse-Number-EN
+
+0.02    2011-10-18
+
+        - Add parse_number_en().
+
+        - Some fixes.
+
+
+0.01    2011-10-17
+
+        First release.
