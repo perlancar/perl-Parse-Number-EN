@@ -23,11 +23,15 @@ our $Pat = qr/(?:
               )/x;
 
 $SPEC{parse_number_en} = {
+    v => 1.1,
     summary => 'Parse number from English text',
     args    => {
-        text => ['str*' => {
+        text => {
             summary => 'The input text that contains number',
-        }],
+            schema => 'str*',
+            req => 1,
+            pos => 0,
+        },
     },
     result_naked => 1,
 };
@@ -71,11 +75,6 @@ None are exported by default, but they are exportable.
 
 A regex for quickly matching/extracting number from text. It's not 100% perfect
 (the extracted number might not be valid), but it's simple and fast.
-
-
-=head1 FUNCTIONS
-
-None are exported by default, but they are exportable.
 
 
 =head1 SEE ALSO
