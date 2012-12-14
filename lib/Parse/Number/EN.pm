@@ -77,6 +77,14 @@ A regex for quickly matching/extracting number from text. It's not 100% perfect
 (the extracted number might not be valid), but it's simple and fast.
 
 
+=head1 FAQ
+
+=head2 How does this module differ from other number-parsing modules?
+
+This module uses a single regex and provides the regex for you to use. Other
+modules might be more accurate and/or faster. But this module is pretty fast.
+
+
 =head1 SEE ALSO
 
 L<Lingua::EN::Words2Nums>
