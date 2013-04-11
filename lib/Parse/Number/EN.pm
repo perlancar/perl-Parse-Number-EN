@@ -53,7 +53,7 @@ __END__
 
  use Parse::Number::EN qw(parse_number_en $Pat);
 
- my @a = map {parse_number_id(text=>$_)}
+ my @a = map {parse_number_en(text=>$_)}
      ("12,345.67", "-1.2e3", "x123", "1.23", "1,23");
  # @a = (12345.67, -1200, undef, 1.23, 1)
 
