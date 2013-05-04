@@ -25,6 +25,14 @@ our $Pat = qr/(?:
 $SPEC{parse_number_en} = {
     v => 1.1,
     summary => 'Parse number from English text',
+    description => <<'_',
+
+This function can parse number with thousand separators (e.g. 10,000).
+
+In the future percentage (e.g. 10.2%) and fractions (e.g. 1/3, 2 1/2) might also
+be supported.
+
+_
     args    => {
         text => {
             summary => 'The input text that contains number',
@@ -64,7 +72,9 @@ __END__
 
 =head1 DESCRIPTION
 
-This module provides $Pat and parse_number_en().
+The goal for this module is to parse/extract numbers written in some common
+notation in English text. That means, in addition to what Perl does, it also
+recognizes thousand separators (and fractions, percentages in the future).
 
 
 =head1 VARIABLES
@@ -89,6 +99,6 @@ modules might be more accurate and/or faster. But this module is pretty fast.
 
 L<Lingua::EN::Words2Nums>
 
-Other Parse::Number::* modules.
+Other Parse::Number::* modules (for other languages).
 
 =cut
