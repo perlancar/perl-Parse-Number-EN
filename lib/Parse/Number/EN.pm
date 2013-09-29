@@ -2,7 +2,7 @@ package Parse::Number::EN;
 
 # TODO: make it OO and customize thousand sep & decimal point
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
