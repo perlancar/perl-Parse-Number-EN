@@ -13,14 +13,17 @@ our @EXPORT_OK = qw($Pat parse_number_en);
 
 our %SPEC;
 
-our $Pat = qr/(?:
-                  [+-]?
-                  (?:
-                      (?:\d{1,3}(?:[,]\d{3})+ | \d+) (?:[.]\d*)? | # english
-                      [.]\d+
-                  )
-                  (?:[Ee][+-]?\d+)?
-              )/x;
+#our $Pat = qr/(?:
+#                  [+-]?
+#                  (?:
+#                      (?:\d{1,3}(?:[,]\d{3})+ | \d+) (?:[.]\d*)? | # english
+#                      [.]\d+
+#                  )
+#                  (?:[Ee][+-]?\d+)?
+#              )/x;
+
+# non /x version
+our $Pat = '(?:[+-]?(?:(?:\d{1,3}(?:[,]\d{3})+|\d+)(?:[.]\d*)?|[.]\d+)(?:[Ee][+-]?\d+)?)';
 
 $SPEC{parse_number_en} = {
     v => 1.1,
