@@ -1,12 +1,13 @@
 package Parse::Number::EN;
 
+# DATE
+# VERSION
+
 # TODO: make it OO and customize thousand sep & decimal point
 
 use 5.010001;
 use strict;
 use warnings;
-
-# VERSION
 
 use Exporter::Lite;
 our @EXPORT_OK = qw($Pat parse_number_en);
@@ -57,8 +58,7 @@ sub parse_number_en {
 }
 
 1;
-# ABSTRACT: Pattern to match number
-__END__
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
