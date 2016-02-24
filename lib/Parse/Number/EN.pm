@@ -9,7 +9,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-use Exporter::Lite;
+use Exporter qw(import);
 our @EXPORT_OK = qw($Pat parse_number_en);
 
 our %SPEC;
