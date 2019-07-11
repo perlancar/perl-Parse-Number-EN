@@ -1,11 +1,11 @@
-0.07    2016-06-14 (PERLANCAR)
+0.07    2016-06-14  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- [dist] Replace Exporter::Lite with Exporter.
 
 
-0.06    2015-09-03 (PERLANCAR)
+0.06    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -14,7 +14,7 @@
 	  requirement.
 
 
-0.05    2014-10-03 (PERLANCAR)
+0.05    2014-10-03  Released-By: PERLANCAR
 
         - No functional changes.
 
@@ -22,23 +22,23 @@
           $Pat.
 
 
-0.04    2012-06-26 (SHARYANTO)
+0.04    2012-06-26  Released-By: SHARYANTO
 
         - No functional changes. Tweak Rinci metadata.
 
 
-0.03    2012-03-23 (SHARYANTO)
+0.03    2012-03-23  Released-By: SHARYANTO
 
         - No functional changes. Remove dependency to old module Sub::Spec.
 
 
-0.02    2011-10-18 (SHARYANTO)
+0.02    2011-10-18  Released-By: SHARYANTO
 
         - Add parse_number_en().
 
         - Some fixes.
 
 
-0.01    2011-10-17 (SHARYANTO)
+0.01    2011-10-17  Released-By: SHARYANTO
 
         - First release.
